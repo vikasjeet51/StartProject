@@ -1,0 +1,19 @@
+{
+  "name": "kisanworldapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikasjeet51/StartProject.git"
+  },
+  "author": "Nishant_Vikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikasjeet51/StartProject/issues"
+  },
+  "homepage": "https://github.com/vikasjeet51/StartProject#readme"
+}
