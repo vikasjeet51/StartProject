@@ -11,5 +11,4 @@ config.postgres={
   user:'postgres',
   password:'password'
 }
-
 module.exports = config
