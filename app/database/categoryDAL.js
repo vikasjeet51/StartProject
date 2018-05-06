@@ -5,7 +5,6 @@ categoryHelper.getMainCategories= function ()
   return new Promise(function(resolve, reject) {
         // Do async job
         dbConnect.query('SELECT * FROM "schema_KW".maincategory').then(myTableRows => {
-          //console.log( myTableRows);
           console.log('done');
           resolve(myTableRows);
         })
