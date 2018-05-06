@@ -4,7 +4,8 @@ categoryHelper.getMainCategories= function ()
 {
   return new Promise(function(resolve, reject) {
         // Do async job
-        dbConnect.query("SELECT * FROM schema_KW.maincategory").then(myTableRows => {
+        dbConnect.query("select * from schema_kw.get_categories(:id)",{
+        replacements: { id: 2}}).then(myTableRows => {
           //console.log( myTableRows);
           console.log('done');
           resolve(myTableRows);
