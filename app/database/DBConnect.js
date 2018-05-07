@@ -22,7 +22,7 @@ var connection=new Sequelize(Config.postgres.db, Config.postgres.user, Config.po
   // a flag for using a native library or not.
   // in the case of 'pg' -- set this to true will allow SSL support
   // - default: false
-  native: true,
+  native: false,
 
   // similar for sync: you can define this to always force sync for models
   sync: { force: true },
